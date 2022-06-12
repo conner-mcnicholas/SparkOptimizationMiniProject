@@ -15,7 +15,7 @@ I used several different techniques in an attempt to optimize the script, includ
 <br>
 &emsp;&emsp;&emsp;-Increasing/decreasing the number of cores/executors by changing params x,y,z in
 <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"spark-submit -master local[x] --num-cores=y --num-executors=z"
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;spark-submit -master local[x] --num-cores=y --num-executors=z
 <br>
 <br>
 The code from these scripts can be found in the test directory.
@@ -46,6 +46,8 @@ Before Optimization:
 ![alt text](https://github.com/conner-mcnicholas/SparkOptimizationMiniProject/blob/main/images/spark_ui_before_summary.png?raw=true)
 <br>
 After Optimization:
+<br>
+![alt-text](https://github.com/conner-mcnicholas/SparkOptimizationMiniProject/blob/main/images/compare.png?raw=true)
 <br>
 ![alt text](https://github.com/conner-mcnicholas/SparkOptimizationMiniProject/blob/main/images/spark_ui_after_summary.png?raw=true)
 <br>
