@@ -1,17 +1,5 @@
 # SparkOptimizationMiniProject
-
-![alt text](https://raw.githubusercontent.com/conner-mcnicholas/SparkOptimizationMiniProject/main/images/compare.png)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/parallel_axis_filter.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/violin_dark_income.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/boxplot_light_income.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/countor_dark_income.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/joyplot_light_region.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/anotated_bubble_axisdist.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/anotated_bubble_dark_region.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/anotated_bubble_light_income.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/bar_counts_income_regioncolor.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/bar_counts_region_incomecolor.png?raw=true)
-
+<br>
 I used several different techniques in an attempt to optimize the script, including:  
 &emsp;&emsp;&emsp;-Increasing/decreasing the number of partitions in different dataframes using coalesce() and repartition()
 <br>
@@ -43,31 +31,20 @@ number of partitions on both joined dataframes to 4.
 <br>
 <br>
 I profiled different variations of configs to narrow down the most optimal settings for my local deployment:
-![alt text](https://github.com/conner-mcnicholas/SparkOptimizationMiniProject/blob/main/images/comp.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/parallel_axis_filter.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/violin_dark_income.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/boxplot_light_income.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/countor_dark_income.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/joyplot_light_region.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/anotated_bubble_axisdist.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/anotated_bubble_dark_region.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/anotated_bubble_light_income.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/bar_counts_income_regioncolor.png?raw=true)
-![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/bar_counts_region_incomecolor.png?raw=true)
 <br>
-![alt text](https://github.com/conner-mcnicholas/SparkOptimizationMiniProject/blob/main/images/compare.png?raw=true)
+![alt text](https://raw.githubusercontent.com/conner-mcnicholas/SparkOptimizationMiniProject/main/images/compare.png)
 <br>
 Before Optimization:
 <br>
-![alt text](https://github.com/conner-mcnicholas/SparkOptimizationMiniProject/blob/main/images/spark_ui_before_summary.png?raw=true)
+![alt text](https://raw.githubusercontent.com/conner-mcnicholas/SparkOptimizationMiniProject/main/images/spark_ui_before_summary.png)
 <br>
 After Optimization:
 <br>
-![alt text](https://github.com/conner-mcnicholas/SparkOptimizationMiniProject/blob/main/images/spark_ui_after_summary.png?raw=true)
+![alt text](https://raw.githubusercontent.com/conner-mcnicholas/SparkOptimizationMiniProject/main/images/spark_ui_after_summary.png)
 <br>
 Physical Plans, Pre/Post Optimization:
 <br>
-![alt text](https://github.com/conner-mcnicholas/SparkOptimizationMiniProject/blob/main/images/physicalplans.png?raw=true)
+![alt text](https://raw.githubusercontent.com/conner-mcnicholas/SparkOptimizationMiniProject/main/images/physicalplans.png)
 
 
 
