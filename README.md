@@ -18,7 +18,8 @@ Physical Plans, Pre/Post Optimization:
 <br>
 ## Approach
 <br>
-I used several different techniques in an attempt to optimize the script, including:  
+I used several different techniques in an attempt to optimize the script, including:
+<br>
 &emsp;&emsp;&emsp;-Increasing/decreasing the number of partitions in different dataframes using coalesce() and repartition()
 <br>
 &emsp;&emsp;&emsp;-Changing the memory footprint of different dataframes using cache()
