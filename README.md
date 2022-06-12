@@ -1,6 +1,6 @@
 # SparkOptimizationMiniProject
 
-![alt text](https://raw.githubusercontent.com/conner-mcnicholas/SparkOptimizationMiniProject/main/images/comp.png)
+![alt text](https://raw.githubusercontent.com/conner-mcnicholas/SparkOptimizationMiniProject/main/images/compare.png)
 ![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/parallel_axis_filter.png?raw=true)
 ![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/violin_dark_income.png?raw=true)
 ![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/boxplot_light_income.png?raw=true)
