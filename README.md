@@ -1,7 +1,7 @@
 # SparkOptimizationMiniProject
 <br>
 <br>
-## Approach
+# Approach
 <br>
 I used several different techniques in an attempt to optimize the script, including:
 <br>
@@ -22,7 +22,7 @@ The code from these scripts can be found in the test directory.
 <br>
 <br>
 <br>
-## Results
+# Results
 <br>
 Because I am running spark locally using --deploy-mode="client" instead of "cluster", which is the
 <br>
