@@ -1,9 +1,18 @@
-# MortalityOfNations
+# SparkOptimizationMiniProject
 
-Quick little project to test data viz capabilities of the atom editor's hydrogen data explorer extension.  
-
-I gathered all this data from different sources.  The datasets compare countries smoking rates and obesity rates with their average lifespan, with data labels to group countries by region as well as wealth.  Correlations and patterns can be seen by chopping the data up in different ways with different tools.  
-
+I used several different techniques in an attempt to optimize the script, including:  
+&emsp;&emsp;&emsp;-Increasing/decreasing the number of partitions in different dataframes using coalesce() and repartition()
+<br>
+&emsp;&emsp;&emsp;-Changing the memory footprint of different dataframes using cache()
+<br>
+&emsp;&emsp;&emsp;-Changing the join order of resultDF
+<br>
+&emsp;&emsp;&emsp;-Enabling/Disabling Adaptive Query Execution by toggling spark.sql.adaptive.enabled
+<br>
+&emsp;&emsp;&emsp;-Increasing/decreasing the number of cores/executors by changing params x,y,z in
+<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;spark-submit -master local[x] --num-cores=y --num-executors=z
+ 
 The following plots are not exhaustive of all of the features available, but those not shown aren't as relevant for this dataset:
 
 ![alt text](https://github.com/conner-mcnicholas/MortalityOfNations/blob/main/analysis_images/parallel_axes_full_income.png?raw=true)
