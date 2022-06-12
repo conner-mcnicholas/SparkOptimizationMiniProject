@@ -30,9 +30,8 @@ are likely not relevant in the context of distributed computing generally.  That
 number of partitions on both joined dataframes to 4.
 <br>
 <br>
-I profiled different variations of configs to narrow down the most optimal settings for my local deployment:
+I profiled different variations of configs to narrow down the most optimal settings for my local deployment
 ![alt text](https://raw.githubusercontent.com/conner-mcnicholas/SparkOptimizationMiniProject/main/images/compare.png)
-<br>
 Before Optimization:
 <br>
 ![alt text](https://raw.githubusercontent.com/conner-mcnicholas/SparkOptimizationMiniProject/main/images/spark_ui_before_summary.png)
