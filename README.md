@@ -1,10 +1,8 @@
 # SparkOptimizationMiniProject
-![alt text](https://raw.githubusercontent.com/conner-mcnicholas/SparkOptimizationMiniProject/main/images/compare.png)
 
-I profiled different variations of configs to narrow down the most optimal settings for my local deployment
-# SparkOptimizationMiniProject
-![alt text](https://raw.githubusercontent.com/conner-mcnicholas/SparkOptimizationMiniProject/main/images/compare.png)
-I used several different techniques in an attempt to optimize the script, including: 
+I profiled different variations of configs to narrow down the most optimal settings for my local deployment:
+<br>
+![alt text](https://raw.githubusercontent.com/conner-mcnicholas/SparkOptimizationMiniProject/main/images/compare.png) 
 Before Optimization:
 <br>
 ![alt text](https://raw.githubusercontent.com/conner-mcnicholas/SparkOptimizationMiniProject/main/images/spark_ui_before_summary.png)
