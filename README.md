@@ -1,5 +1,5 @@
 # SparkOptimizationMiniProject
-<br>
+![alt text](https://raw.githubusercontent.com/conner-mcnicholas/SparkOptimizationMiniProject/main/images/compare.png)
 I used several different techniques in an attempt to optimize the script, including:  
 &emsp;&emsp;&emsp;-Increasing/decreasing the number of partitions in different dataframes using coalesce() and repartition()
 <br>
