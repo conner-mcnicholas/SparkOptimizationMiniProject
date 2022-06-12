@@ -23,13 +23,11 @@ project_path = ('/').join(base_path.split('/')[0:-3])
 answers_input_path = os.path.join(project_path, 'data/answers')
 
 questions_input_path = os.path.join(project_path, 'data/questions')
-s0a=time.perf_counter()
-answersDF = spark.read.option('path', answers_input_path).load()
-e0a=time.perf_counter()
 
-s0=time.perf_counter()
+answersDF = spark.read.option('path', answers_input_path).load()
+
 questionsDF = spark.read.option('path', questions_input_path).load()
-e0=time.perf_counter()
+
 '''
 Answers aggregation
 
@@ -53,9 +51,6 @@ Task:
 
 see the query plan of the previous result and rewrite the query to optimize it
 '''
-print(f"Completed answersDF in {e0a-s0a} seconds")
-print(f"Completed questionsDF in {e0-s0} seconds")
 print(f"Completed answers_month in {e1-s1} seconds")
 print(f"Completed resultsDF in {e2-s2} seconds")
 print(f"Completed resultsDF.show in {e3-s3} seconds")
-print(f"Total elapsed time: {e3-s0a} seconds")
