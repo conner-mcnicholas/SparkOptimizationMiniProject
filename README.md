@@ -3,6 +3,7 @@
 I profiled different variations of configs to narrow down the most optimal settings for my local deployment:
 <br>
 ![alt text](https://raw.githubusercontent.com/conner-mcnicholas/SparkOptimizationMiniProject/main/images/compare.png) 
+<br>
 Before Optimization:
 <br>
 ![alt text](https://raw.githubusercontent.com/conner-mcnicholas/SparkOptimizationMiniProject/main/images/spark_ui_before_summary.png)
@@ -14,7 +15,7 @@ After Optimization:
 Physical Plans, Pre/Post Optimization:
 <br>
 ![alt text](https://raw.githubusercontent.com/conner-mcnicholas/SparkOptimizationMiniProject/main/images/physicalplans.png)
-
+<br>
 I used several different techniques in an attempt to optimize the script, including:  
 &emsp;&emsp;&emsp;-Increasing/decreasing the number of partitions in different dataframes using coalesce() and repartition()
 <br>
