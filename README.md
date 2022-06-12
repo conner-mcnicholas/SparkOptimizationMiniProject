@@ -2,6 +2,7 @@
 <br>
 <br>
 ## Approach
+<br>
 I used several different techniques in an attempt to optimize the script, including:
 <br>
 &emsp;&emsp;&emsp;-Increasing/decreasing the number of partitions in different dataframes using coalesce() and repartition()
@@ -22,6 +23,7 @@ The code from these scripts can be found in the test directory.
 <br>
 <br>
 ## Results
+<br>
 Because I am running spark locally using --deploy-mode="client" instead of "cluster", which is the
 <br>
 application wherein spark thrives given its distributed architecture.  In light of this
