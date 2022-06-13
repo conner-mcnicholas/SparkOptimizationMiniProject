@@ -1,4 +1,4 @@
-# SparkOptimizationMiniProject
+# Spark Optimization Mini Project
 
 I used several different techniques in an attempt to optimize the script, including:
 <br>
