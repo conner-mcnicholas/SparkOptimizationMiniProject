@@ -1,5 +1,5 @@
 # SparkOptimizationMiniProject
-
+<br>
 I profiled different variations of configs to narrow down the most optimal settings for my local deployment:
 <br>
 ![alt text](https://raw.githubusercontent.com/conner-mcnicholas/SparkOptimizationMiniProject/main/images/compare.png) 
